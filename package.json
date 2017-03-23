@@ -3,12 +3,17 @@
   "version": "0.0.1",
   "private": true,
   "main": "./index.js",
+  "scripts": {
+    "docs": "esdoc"
+  },
   "dependencies": {
     "jsdom": "^9.12.0",
     "request": "^2.81.0"
   },
   "devDependencies": {
     "babel-eslint": "^7.1.1",
+    "esdoc": "^0.5.2",
+    "esdoc-node": "^1.0.1",
     "eslint": "^3.18.0",
     "eslint-config-airbnb": "^14.1.0",
     "eslint-plugin-import": "^2.2.0",
